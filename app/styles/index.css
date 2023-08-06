@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.swal2-title{
+    font-size: 18px;
+}
