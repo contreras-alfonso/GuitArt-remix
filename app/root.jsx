@@ -61,16 +61,16 @@ export default function App(){
 
     const [carrito,setCarrito] = useState([]);
 
-    useEffect(()=>{
-        const carritoLS = JSON.parse(localStorage.getItem('carrito')) || []
-        if(carritoLS.length){
-            setCarrito(carritoLS);
-        }
-    },[])
+    // useEffect(()=>{
+    //     const carritoLS = JSON.parse(localStorage.getItem('carrito')) || []
+    //     if(carritoLS.length){
+    //         setCarrito(carritoLS);
+    //     }
+    // },[])
 
-    useEffect(()=>{
-        localStorage.setItem('carrito',JSON.stringify(carrito))
-    },[carrito])
+    // useEffect(()=>{
+    //     localStorage.setItem('carrito',JSON.stringify(carrito))
+    // },[carrito])
     
 
     const mensajeSwal = (mensaje,tipo) => {
