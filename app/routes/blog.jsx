@@ -21,7 +21,7 @@ const blog = () => {
     <main>
       <h2 className="text-center font-black text-4xl md:text-6xl text-white my-10">Blog</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mx-3 md:mx-7">
-          {posts.map(post=>(
+          {posts?.map(post=>(
             <Post key={post.id} post={post.attributes}></Post>
           ))}
       </div>

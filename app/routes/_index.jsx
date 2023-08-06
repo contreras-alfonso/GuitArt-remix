@@ -1,6 +1,3 @@
-import { useLoaderData } from '@remix-run/react'
-import {getGuitarras} from '~/api/guitarras.server'
-import { getPosts } from '~/api/post.server'
 import { Link } from '@remix-run/react'
 import imageFondo from '../../public/img/fondo.jpg'
 
