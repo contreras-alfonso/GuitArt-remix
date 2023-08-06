@@ -1,6 +1,6 @@
 import { Link } from '@remix-run/react'
 import { useOutletContext } from '@remix-run/react'
-import React from 'react'
+import { ClientOnly } from 'remix-utils'
 
 export function meta(){
   return [
@@ -18,6 +18,9 @@ const Carrito = () => {
   }
 
   return (
+
+    <ClientOnly fallback={'cargando...'}>
+      {()=>(
     <main>
 
 
@@ -92,6 +95,8 @@ const Carrito = () => {
       
 
     </main>
+      )}
+    </ClientOnly>
   )
 }
 
