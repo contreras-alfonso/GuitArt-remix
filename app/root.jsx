@@ -11,11 +11,11 @@ import styleSpinner from '~/styles/spinner.css'
 import styleFontawesome from '../public/fontawesome/css/all.css'
 
 export function meta(){
-    return([
+    return [
         {charset: 'utf-8'},
         {title: 'GuitarLA - Remix'},
-        {viewport: "width=device-width,initial-scale=1"}
-    ])
+        {name: "viewport",content:"width=device-width,initial-scale=1.0"}
+    ]
 }
 
 

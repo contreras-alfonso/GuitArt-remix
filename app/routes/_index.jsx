@@ -3,7 +3,8 @@ import imageFondo from '../../public/img/fondo.jpg'
 
 export function meta(){
   return [
-    {title:'Inicio | GuitArt'}
+    {title:'Inicio | GuitArt'},
+    {name: "viewport",content:"width=device-width,initial-scale=1.0"}
   ]
 }
 

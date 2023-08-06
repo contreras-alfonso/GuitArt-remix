@@ -6,7 +6,8 @@ import Spinner from '../components/spinner';
 
 export function meta(){
   return[
-    {title: 'Tienda | GuitArt'}
+    {title: 'Tienda | GuitArt'},
+    {name: "viewport",content:"width=device-width,initial-scale=1.0"}
   ]
 }
 

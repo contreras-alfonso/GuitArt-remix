@@ -3,7 +3,8 @@ import imagen from '../../public/img/nosotros.jpg'
 export function meta(){
   return[
     {title:'Nosotros | GuitArt'},
-    {description: 'Venta de guitarras, blog de música'}
+    {description: 'Venta de guitarras, blog de música'},
+    {name: "viewport",content:"width=device-width,initial-scale=1.0"}
   ]
 }
 

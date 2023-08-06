@@ -8,12 +8,14 @@ export function meta({data}){
   if(!data){
     return [
       {title:'No encontrado | GuitArt'},
-      {description: `Guitarras, venta de guitarras, guitarra no encontrada`}
+      {description: `Guitarras, venta de guitarras, guitarra no encontrada`},
+      {name: "viewport",content:"width=device-width,initial-scale=1.0"}
     ]
   }
   return [
     {title:`${data.data[0].attributes.nombre} | GuitArt`},
-    {description: `Guitarras, venta de guitarras, guitarra ${data.nombre}`}
+    {description: `Guitarras, venta de guitarras, guitarra ${data.nombre}`},
+    {name: "viewport",content:"width=device-width,initial-scale=1.0"}
   ]
 }
 

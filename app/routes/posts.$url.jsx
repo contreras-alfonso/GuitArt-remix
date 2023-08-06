@@ -4,7 +4,8 @@ import { formatearFecha } from '~/utils/helpers'
 
 export function meta({data}){
     return [
-        {title:`${data.titulo} | GuitarLA`}
+        {title:`${data.titulo} | GuitarLA`},
+        {name: "viewport",content:"width=device-width,initial-scale=1.0"}
     ]
 }
 

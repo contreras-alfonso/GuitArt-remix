@@ -4,7 +4,8 @@ import { ClientOnly } from 'remix-utils'
 
 export function meta(){
   return [
-    {title:'Carrito | GuitArt'}
+    {title:'Carrito | GuitArt'},
+    {name: "viewport",content:"width=device-width,initial-scale=1.0"}
   ]
 }
 

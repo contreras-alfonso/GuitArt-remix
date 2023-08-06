@@ -4,7 +4,8 @@ import Post from "~/components/post";
 
 export function meta(){
   return [
-    {title: 'Blog | GuitArt'}
+    {title: 'Blog | GuitArt'},
+    {name: "viewport",content:"width=device-width,initial-scale=1.0"}
   ]
 }
 
