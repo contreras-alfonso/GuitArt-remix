@@ -10,7 +10,7 @@ const Guitarra = ({guitarra}) => {
         <div className="flex flex-col gap-2 md:w-2/3 justify-between ">
             <h3 className="text-orange-400 font-black text-4xl text-center">{nombre}</h3>
             <p className="px-3 text-justify">{descripcion}</p>
-            <p className="text-orange-400 font-black text-4xl px-3">${precio}</p>
+            <p className="text-orange-400 font-black text-4xl px-3">S/{precio}</p>
             <Link className="border-2 border-black bg-black hover:border-orange-400 hover:bg-transparent hover:text-black  uppercase text-white font-black p-3 mt-5 text-center" to={`/guitarras/${url}`}>Ver Producto</Link>
         </div>
     </div>
