@@ -1,4 +1,5 @@
 # Proyecto GuitArt - Remix
+- Enlace del proyecto: https://guitart-remix.vercel.app/carrito
 - Este proyecto fue creado en el framework Remix js.
 - Para la parte de CSS de la aplicación, se usó el framework Tailwind css.
 - El proyecto trata sobre una pagina que contiene productos,blog y otras secciones.
